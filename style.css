@@ -1,0 +1,245 @@
+/** @format */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 9vh;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6f6af7;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.logo {
+  height: 9vh;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo > img {
+  width: 100px;
+  height: 25px;
+}
+.menu {
+  height: 9vh;
+  width: 69%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu > ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+.menu > ul > li {
+  padding: 10px;
+  font-size: 1.3rem;
+}
+.search {
+  position: relative;
+}
+.search > input {
+  padding: 10px;
+  border-radius: 63px;
+  border: none;
+  outline: none;
+}
+.search > img {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+}
+.menu > img {
+  width: 20px;
+  height: 20px;
+  margin-left: -147px;
+  cursor: pointer;
+}
+.menulogo {
+  width: 50px;
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* container part  */
+
+.container {
+  display: flex;
+  width: 90%;
+  height: 45vh;
+  padding: 20px;
+  justify-content: space-between;
+}
+.left {
+  width: 25%;
+  margin-left: 60px;
+}
+.left > img {
+  width: 270px;
+  height: 320px;
+  margin: 11px 36px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
+}
+.right {
+  width: 55%;
+}
+.desc {
+  margin: 11px 0px;
+  height: 320px;
+  width: auto;
+  border-radius: 20px;
+  background: #d3c8e7;
+  padding: 10px;
+  box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+}
+.desc > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #6f7373;
+  line-height: 178.7%;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  top: 7.5vh;
+  margin-top: -10rem;
+  margin-right: 25px;
+  position: sticky;
+}
+.social > img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: -19px;
+  border: 2px solid gray;
+}
+/* section  */
+.section {
+  margin-top: 5rem;
+  width: 100%;
+  height: 33vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about {
+  width: 170px;
+  height: 80px;
+  border-radius: 10px;
+  background: #6f6af7;
+  margin: 10px;
+  box-shadow: 5px 5px 18px #888888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.about:nth-child(1) {
+  background: #929dff;
+}
+.about:nth-child(2) {
+  background: #734cf2;
+}
+.about:nth-child(3) {
+  background: #d288ff;
+}
+.about:nth-child(4) {
+  background: #000000;
+}
+
+.Contact {
+  position: fixed;
+  margin-right: -65rem;
+  margin-bottom: 2rem;
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact > img {
+  width: 40px;
+  height: 40px;
+}
+/* footer section  */
+.footer {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 63vh;
+  width: 90%;
+  background: #734cf2;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+}
+.box_left {
+  width: 35%;
+  height: 58vh;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.button {
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+  width: 60%;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.button:first-child {
+  color: #000000;
+  background: #bce0f6;
+  border: none;
+}
+.box_right {
+  width: 62%;
+  height: 58vh;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+}
+.info {
+  margin: 25px 0;
+}
+.lable {
+  font-weight: 800;
+}
+span:nth-child(2) {
+  color: rgb(61, 61, 61);
+}
